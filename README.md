@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Notahoneypot – Your Trusted ERC20 Honeypot Token Checker
+
+notahoneypot is a straightforward and reliable tool designed to secure your investment journey. This ERC20 honeypot token checker quickly analyzes tokens to detect any signs of a honeypot, ensuring that your foray into cryptocurrency is protected. With an intuitive interface and rapid results, notahoneypot stands as a testament to smart and secure investing made simple for the bright crypto-enthusiasts.
 
 ## Getting Started
 

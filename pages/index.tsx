@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { ethers } from 'ethers';
 const contractInfo = require("../app/abi.json");
 require('dotenv').config();
@@ -6,32 +6,8 @@ import '../styles/style.css';
 import '../styles/globals.css';
 
 
-// const index = () => {
-//     const [tokenAddress, setTokenAddress] = useState('');
-//     const [result, setResult] = useState('');
 
-//     const checkHoneypot = async () => {
-//         try {
-//             // Set up the provider (using Alchemy)
-//             const provider = new ethers.providers.JsonRpcProvider("https://1rpc.io/bnb");
-    
-//             // Your contract ABI and address
-//             const contractABI = contractInfo; // Replace with your contract's ABI
-//             const contractAddress = '0x77Dd873ad58418c40974016EbB792D2c20A1ABCA';
-    
-//             // Create a contract instance
-//             const contract = new ethers.Contract(contractAddress, contractABI, provider);
-    
-//             // Call the checkToken function
-//             const isHoneypot = await contract.callStatic.isHoneyPot("0x10ED43C718714eb63d5aA57B78B54704E256024E","0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c","0xD53A69f2E1D39D7f12C81958979597B84A6029C3");
-//             setResult(`The token is ${isHoneypot ? 'not a honeypot' : 'a honeypot'}.`);
-//         } catch (error) {
-//             console.error(error);
-//             setResult('An error occurred while checking the token.');
-//         }
-//     };
-
-    const index = () => {
+    const Index = () => {
         const [tokenAddress, setTokenAddress] = useState('');
         const [result, setResult] = useState('');
     
@@ -96,4 +72,4 @@ import '../styles/globals.css';
     );
 };
 
-export default index;
+export default Index;
